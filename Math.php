@@ -51,5 +51,15 @@ class Math {
         return $sum;
     }
 
+    /**
+     * @param $num1
+     * @param $num2
+     * @return float|string
+     */
+    public static function divide($num1, $num2){
+        $result = $num1 / $num2;
+        return $result;
+    }
+
 
 }
