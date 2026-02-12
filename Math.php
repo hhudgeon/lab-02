@@ -19,19 +19,37 @@ class Math {
 	 * @param float $b
 	 * @return float
 	 */
+
+    /**
+     * @param $num1
+     * @param $num2
+     * @return mixed
+     */
 	public static function add($num1, $num2){
 		$sum = $num1 + $num2;
 		return $sum;
 	}
 
+    /**
+     * @param $num1
+     * @param $num2
+     * @return mixed
+     */
     public static function subtract($num1, $num2){
         $sum = $num1 - $num2;
         return $sum;
     }
 
+    /**
+     * @param $num1
+     * @param $num2
+     * @return float|int
+     */
+
     public static function multipy($num1, $num2){
         $sum = $num1 * $num2;
         return $sum;
     }
+
 
 }
