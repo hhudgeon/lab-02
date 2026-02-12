@@ -62,4 +62,12 @@ class Math {
     }
 
 
+
+    public static function pythagorean($num1, $num2){
+        $pythagorean = ($num1 * $num1) + ($num2 * $num2);
+        return $pythagorean;
+    }
+
+
+
 }
